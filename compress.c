@@ -139,7 +139,7 @@ static int get_compress_version(struct compress *compress)
 	return version;
 }
 
-static bool _is_codec_supported(struct compress *compress, struct compr_config *config,
+__unused static bool _is_codec_supported(struct compress *compress, struct compr_config *config,
 				const struct snd_compr_caps *caps)
 {
 	bool codec = false;
