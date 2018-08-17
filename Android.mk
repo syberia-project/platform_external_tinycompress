@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_CFLAGS := -Wno-macro-redefined -Wno-error
+LOCAL_CFLAGS := -Wno-macro-redefined -Wno-error -Wno-unused-function
 LOCAL_C_INCLUDES:= $(LOCAL_PATH)/include
 LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
