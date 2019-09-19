@@ -22,7 +22,7 @@ license {
 cc_library_shared {
     name: "libtinycompress",
     vendor: true,
-
+    defaults: ["extended_compress_format_defaults"],
     cflags: [
         "-Wall",
         "-Werror",
